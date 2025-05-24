@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="logo">Abdo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <span class="logo-icon">💻</span>
+                <span class="logo-text" data-i18n="logo">Abdo</span>
+            </div>
+            <div class="nav-container">
+                <ul class="nav-links">
+                    <li><a href="#home"><i class="fas fa-home"></i> <span data-i18n="nav.home">الرئيسية</span></a></li>
+                    <li><a href="#about"><i class="fas fa-user"></i> <span data-i18n="nav.about">عني</span></a></li>
+                    <li><a href="#skills"><i class="fas fa-code"></i> <span data-i18n="nav.skills">المهارات</span></a></li>
+                    <li><a href="#projects"><i class="fas fa-project-diagram"></i> <span data-i18n="nav.projects">المشاريع</span></a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> <span data-i18n="nav.contact">تواصل معي</span></a></li>
+                </ul>
+                <div class="language-selector">
+                    <button class="language-btn">
+                        <i class="fas fa-globe"></i>
+                        <span class="current-lang">العربية</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="#" data-lang="ar" class="active">العربية 🇸🇦</a>
+                        <a href="#" data-lang="en">English 🇬🇧</a>
+                        <a href="#" data-lang="de">Deutsch 🇩🇪</a>
+                        <a href="#" data-lang="tr">Türkçe 🇹🇷</a>
+                    </div>
+                </div>
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="terminal-container">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="terminal-title">terminal@developer</div>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="terminal-line">
+                            <span class="prompt">visitor@portfolio:~$</span>
+                            <span class="command">whoami</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="output">مرحباً، أنا <span class="highlight">عبد الرزاق</span> 👋</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="prompt">visitor@portfolio:~$</span>
+                            <span class="command">cat about.txt</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="output">مطور برمجيات متخصص في تطوير الويب 💻</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="prompt">visitor@portfolio:~$</span>
+                            <span class="command">_</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-image-container">
+                    <img src="image/47faacfeb7f42769b20af680ab5e5f04.jpg" alt="صورة المبرمج" class="profile-image">
+                    <div class="profile-overlay">
+                        <div class="profile-info">
+                            <h3>المبرمج</h3>
+                            <p>مطور برمجيات</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2 data-i18n="about.title">عني 👨‍💻</h2>
+            <div class="about-terminal">
+                <div class="terminal-header">
+                    <div class="terminal-buttons">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="terminal-title">about@developer</div>
+                </div>
+                <div class="terminal-body">
+                    <div class="terminal-line">
+                        <span class="prompt">visitor@portfolio:~$</span>
+                        <span class="command">cat developer.json</span>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="output">{</span>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="output">  "name": "المبرمج",</span>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="output">  "role": "مطور برمجيات",</span>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="output">  "specialization": "تطوير الويب",</span>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="output">  "experience": "خبرة واسعة في تطوير الويب وتصميم واجهات المستخدم",</span>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="output">  "passion": "إنشاء حلول تقنية مبتكرة",</span>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="output">  "skills": [</span>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="output">    "تطوير الواجهات الأمامية",</span>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="output">    "تصميم واجهات المستخدم",</span>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="output">    "تطوير تطبيقات الويب"</span>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="output">  ]</span>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="output">}</span>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="prompt">visitor@portfolio:~$</span>
+                        <span class="command">_</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2 data-i18n="skills.title">مهاراتي 🛠️</h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3 data-i18n="skills.programming">لغات البرمجة 💻</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-percentage">100%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Python</span>
+                            <span class="skill-percentage">100%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">PHP</span>
+                            <span class="skill-percentage">60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="60"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3 data-i18n="skills.web">تطوير الويب 🌐</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">HTML5</span>
+                            <span class="skill-percentage">100%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">CSS3</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">React</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3 data-i18n="skills.databases">قواعد البيانات 📊</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">MySQL</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">MongoDB</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3 data-i18n="skills.tools">أدوات وتقنيات 🛠️</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Git</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Docker</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="75"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 data-i18n="projects.title">مشاريعي 🚀</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">💻</div>
+                    <h3>تطبيق إدارة المهام</h3>
+                    <p class="project-description">تطبيق ويب متكامل لإدارة المهام والمشاريع مع واجهة مستخدم حديثة</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> الكود</a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> المعاينة</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">🎮</div>
+                    <h3>لعبة الذاكرة</h3>
+                    <p class="project-description">لعبة ذاكرة تفاعلية مع مستويات مختلفة وتصميم جذاب</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> الكود</a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> المعاينة</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">📱</div>
+                    <h3>تطبيق الطقس</h3>
+                    <p class="project-description">تطبيق للتنبؤ بالطقس مع واجهة مستخدم سهلة الاستخدام</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React Native</span>
+                        <span class="tech-tag">API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> الكود</a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> المعاينة</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">🛒</div>
+                    <h3>متجر إلكتروني</h3>
+                    <p class="project-description">منصة تسوق إلكتروني متكاملة مع نظام دفع وإدارة مخزون</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Vue.js</span>
+                        <span class="tech-tag">Laravel</span>
+                        <span class="tech-tag">MySQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> الكود</a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> المعاينة</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 data-i18n="contact.title">تواصل معي 🌟</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">📧</div>
+                        <h3>البريد الإلكتروني</h3>
+                        <p>Abdulrazzaqkhuder@gmail.com</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">📱</div>
+                        <h3>رقم الهاتف</h3>
+                        <p>+30 697 806 6087</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">📍</div>
+                        <h3>الموقع</h3>
+                        <p>حلب ، سوريا</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="الاسم" data-i18n-placeholder="contact.name" required>
+                    <input type="email" placeholder="البريد الإلكتروني" data-i18n-placeholder="contact.email" required>
+                    <textarea placeholder="الرسالة" data-i18n-placeholder="contact.message" required></textarea>
+                    <button type="submit" data-i18n="contact.send">إرسال</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 <span data-i18n="logo">عبد الرزاق/span>. All rights reserved.</p>
+        </footer>
+    </main>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
